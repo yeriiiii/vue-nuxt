@@ -1,5 +1,11 @@
 <template>
-  <div>
-    <NuxtWelcome />
+  <div class="chart">
+    <LineChart  />
   </div>
 </template>
+
+<style>
+.chart {
+  width: 70vw;
+}
+</style>
